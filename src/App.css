@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.button {
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: transparent;
+  border-color: #000;
+  color: #000;
+}

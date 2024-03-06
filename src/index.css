@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.centered-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Optional: Adjust height as needed */
+}
+
+nav p {
+  color: white;
+  margin-left: 0px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h2 {
+  padding: 15px 30px;
+  border: 1px solid #6d6d6d;
+  background: lightcyan;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+h3 {
+  padding: 5px 50px;
+  display: inline-block;
+}
